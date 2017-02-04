@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+ 
+<div class="content__selection">
+		<div class="content__primary">
+			<div class="content__primary__top">
+				<h2 class="content__primary__top_	_heading">{{ page.title | escape }}
+				</h2>
+				<span class="content__primary__date content__primary__date_top">{{ page.date | date: "%b %-d, %Y" }}</span> |
+				<span class="	content__primary__top__comments">Комментарии</span>
+				<span class="content__primary__top__numebr">116</span>
+			</div>
+			<div class="content__primary__buttom">
+				
+				<div class="content__primary__footer">
+					<div class="content__description__text ">
+					{{ content }}
+					</div>						
+				</div>							
+			</div>
+		</div>
+	</div>
+
+	<div id="disqus_thread"></div>

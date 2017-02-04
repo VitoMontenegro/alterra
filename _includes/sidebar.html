@@ -1,0 +1,168 @@
+      <div class="sidebar ">        
+        <div class="sidebar__content">
+          <div class="sidebar__section">
+            <div class="sidebar__section__heading sidebar__section__heading_top">
+              <h3 class="sidebar__section__heading__title sidebar__section__heading__title_top">
+                <a href="{{ "/interesting.html" | prepend: site.baseurl }}" class="sidebar__section__heading__title__link sidebar__section__heading__title__link_active">
+                  Интересно
+                </a>
+              </h3>
+              <h6 class="sidebar__section__heading__caption sidebar__section__heading__caption_active">
+                Интересные факты об упаковке
+              </h6>
+            </div>
+            <div class="sidebar__section__content">
+            {% for post in site.categories.Interesno limit: 6 %}
+              <div class="sidebar__selection__paragraph">
+              <a href="{{ post.url | prepend: site.baseurl }}" class="selection__paragraph__link">
+                {{ post.description }} 
+              </a>  
+              </div>  
+            {% endfor %}             
+            </div>
+          </div>
+          <div class="sidebar__section">
+            <div class="sidebar__section__heading sidebar__section__heading_middle">
+              <h3 class="sidebar__section__heading__title sidebar__section__heading__title_middle">
+                <a href="#" class="sidebar__section__heading__title__link">
+                  категории
+                </a>
+              </h3>
+              <h4 class="sidebar__section__heading__caption">
+                Категории товаров и описания
+              </h4>
+            </div>
+            <div class="sidebar__section__content">
+              <ul class="sidebar__categories">
+                <li class="sidebar__categories__list">
+                  <a href="" class="sidebar__categories__link">
+                    <span class="categories__list__item">пленки</span>
+                    <span class="categories__list__item">(10)</span>
+                  </a>                
+                </li>
+                <li class="sidebar__categories__list">
+                  <a href="" class="sidebar__categories__link">
+                    <span class="categories__list__item">этикетки</span>
+                    <span class="categories__list__item">(24)</span>
+                  </a>                  
+                </li>
+                <li class="sidebar__categories__list">
+                  <a href="" class="sidebar__categories__link">
+                    <span class="categories__list__item">пакеты </span>
+                    <span class="categories__list__item">(8)</span>
+                  </a>                  
+                </li>
+                <li class="sidebar__categories__list">
+                  <a href="" class="sidebar__categories__link">
+                    <span class="categories__list__item">оболочка </span>
+                    <span class="categories__list__item">(854)</span>
+                  </a>                  
+                </li>
+                <li class="sidebar__categories__list">
+                  <a href="" class="sidebar__categories__link">
+                    <span class="categories__list__item">прочее  </span>
+                    <span class="categories__list__item">(13)</span>
+                  </a>                  
+                </li>
+              </ul>
+            </div>            
+          </div>
+          <div class="sidebar__section">
+            <div class="sidebar__section__heading">
+              <h3 class="sidebar__section__heading__title sidebar__section__heading__title_bottom">
+                <a href="archives.html" class="sidebar__section__heading__title__link">
+                  архив
+                </a>
+              </h3>
+            </div>  
+            <div class="sidebar__section__content">
+              <ul class="sidebar__arhives">
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Декабрь</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Ноябрь</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Октябрь</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Сентябрь</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Август</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Июль</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+                <li class="arhives__list">
+                  <a href="" class="arhives__list__link">
+                    <span class="arhives__list__item">Июнь</span>
+                    <span class="arhives__list__item">2016</span>
+                  </a>                  
+                </li>
+              </ul>
+            </div>                    
+          </div>
+          <div class="sidebar__section ">
+            <div class="sidebar__section__heading sidebar__section_tags">           
+              <h3 class="sidebar__section__heading__title sidebar__section__heading__title_tags">
+                Теги
+              </h3>
+            </div>  
+            <div class="sidebar__section__content">
+                <ul class="sidebar__tags">
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">пленка</a></li>
+                    <li class="sidebar__tags__list xl"><a class="sidebar__tags__link" href="#">БОПП</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">пакеты</a></li>
+                    <li class="sidebar__tags__list s"><a class="sidebar__tags__link" href="#">Вакуумные пакеты</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">оборудование</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">оболочка</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">барьерная</a></li>
+                    <li class="sidebar__tags__list s"><a class="sidebar__tags__link" href="#">упаковка</a></li>
+                    <li class="sidebar__tags__list s"><a class="sidebar__tags__link" href="#">колбаная</a></li>
+                    <li class="sidebar__tags__list xxl"><a class="sidebar__tags__link" href="#">ПЭТ</a></li>
+                    <li class="sidebar__tags__list xl"><a class="sidebar__tags__link" href="#">ламинированные</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link"  href="#">печать</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">многослойная</a></li>
+                    <li class="sidebar__tags__list s"><a class="sidebar__tags__link" href="#">полноцветная</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">этикетка</a></li>
+                    <li class="sidebar__tags__list l"><a class="sidebar__tags__link" href="#">производство</a></li>
+                    <li class="sidebar__tags__list xxl"><a class="sidebar__tags__link" href="#">термоусадочный</a></li>
+                    <li class="sidebar__tags__list m"><a class="sidebar__tags__link" href="#">мешок</a></li>
+                </ul>
+            </div>             
+          </div>
+          <div class="sidebar__footer">
+            <div class="sidebar__footer__logo">
+              <a href="#" class="footer__logo__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="37" viewBox="0 0 43 37">
+                    <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="43" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAlCAMAAADsieCCAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAOVBMVEX///9uYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVJuYVIAAABZ5PtEAAAAEXRSTlMAABCP369gMO9wQFCfIIC/z5XAOoIAAAABYktHRBJ7vGwAAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4AwHDzktwrDyaAAAAblJREFUOMuNk4uOhDAIRembYkvL///sYq2PODo7JJpGjwiXC8AI60TDh2jNLeAeCX0mSIvzUuo/rEc7T9ELf2WTLJDm2bCUL2zCBk3EbawhiW9sLtJqEo4SN9YUrM9skK5M6gCtTNb2bh/ZvkqVwGXbebKmYnmuYXFNusrQA+ysSWd/dx1Y8nHeiCj0wloJN9YwppdZBLE3VsVIz2zUYdxYhe0jW+cgrqwpfnliwc8ibPGd7VFziwe78N5/ERpoF2wy8g3pgmBg0shepO1fbQNW8XQSQY7UNhaULfrurqka8qi3CJZ01Vf/Fw6loOHwpoWZzUujky2XYc0iCA8dbBZZdracMo2/qIeB5GBrUUNvrBZwzQorR3qlyWb0POf2iWpiNRuGwVIXtyuRuvDHOLIU3abOrH31XQWTEBf4jKYV6NywhXPfFE0PqFaxPr/usGX0j+janvCVJa9jhJfQno7dqYt6g8wrC9ardzjH0NQrOFzxykJzfRilFaaXHTpZMpao01n0E1UpEkHL6/vt/sqmzaToVxO4/pWtmpUWh6vZTRb7tYb5CVdurQv9wK5rhCVg/oktl75u7B88FRNAp2YwsAAAAABJRU5ErkJggg=="/>
+                  </svg>                          
+              </a>              
+            </div>
+            <div class="sidebar__footer__caption">
+              <div class="sidebar__footer__twitter">twitter</div>
+              <div class="sidebar__footer__slogan">follow me</div>
+            </div>
+          </div>        
+        </div>
+      </div>

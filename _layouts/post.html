@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+ 
+<div class="content__selection">
+		<div class="content__primary">
+			<div class="content__primary__top">
+				<h2 class="content__primary__top__heading">{{ page.title | escape }}
+				</h2>
+				<span class="content__primary__date content__primary__date_top">{{ page.date | date: "%b %-d, %Y" }}</span> |
+				<span class="	content__primary__top__comments">Комментарии</span>
+				<span class="content__primary__top__numebr">116</span>
+			</div>
+			<div class="content__primary__buttom">
+				<div class="content__primary__stikker">
+					<img src="http://localhost:4000/assets/images/icons/stikker_bg.png" alt="">
+				</div>
+				<div class="content__primary__body">
+					<iframe width="620" height="240" src="https://www.youtube.com/embed/{{ page.youtubeId }}" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="content__primary__footer">
+					<div class="content__description__text ">
+					{{ content }}
+					</div>
+						
+				</div>							
+			</div>
+		</div>
+	</div>
+
+	<div id="disqus_thread"></div>
