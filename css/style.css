@@ -58,7 +58,7 @@ header {
 	color:#333300;
 }
 .header__caption {
-	font-family: 'Annabelle', Arial, Helvetica, sans-serif;
+	font-family: 'Marck Script', cursive;
 	font-size: 16px;
 	color: #333300;
 	margin-top: -8px;
@@ -91,7 +91,7 @@ header {
 }
 
 .menu__list__caption {
-	font-family: 'Annabelle', Arial, Helvetica, sans-serif;
+	font-family: 'Marck Script', cursive;
 	font-size: 12px;
 	color: #ffffcc;
 	margin-top: -8px;
@@ -130,7 +130,7 @@ header {
 }
 
 .sidebar__section__heading__caption {
-	font-family: 'Annabelle', Arial, Helvetica, sans-serif;
+	font-family: 'Marck Script', cursive;
 	font-size: 13px;
 	margin-bottom: 7%;
 	margin-top: -3%;
